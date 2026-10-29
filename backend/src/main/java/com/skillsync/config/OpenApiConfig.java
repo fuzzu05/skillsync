@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
                 title = "SkillSync API — Campus Collaboration Platform",
                 version = "1.0.0",
                 description = "REST APIs for SkillSync: Student matchmaking, project management, team tasks, campus events, and direct messaging.\n\n*Tagline: Find your people. Build something extraordinary.*",
-                contact = @Contact(name = "SkillSync Engineering", email = "support@skillsync.edu"),
+                contact = @Contact(name = "Fuzail Khan", email = "fuzailk05@gmail.com", url = "https://linkedin.com/in/fuzail-a-khan"),
                 license = @License(name = "Apache 2.0", url = "https://www.apache.org/licenses/LICENSE-2.0")
         ),
         servers = {

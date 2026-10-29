@@ -1,6 +1,8 @@
 # SkillSync — Intelligent Campus Collaboration Platform
 
-> **Tagline:** *Find your people. Build something extraordinary.*
+> **Tagline:** *Find your people. Build something extraordinary.*  
+> **Author:** **Fuzail Khan** ([fuzailk05@gmail.com](mailto:fuzailk05@gmail.com) • [GitHub: @fuzzu05](https://github.com/fuzzu05))  
+> **Live API & Swagger:** [https://skillsync-5wgx.onrender.com/swagger-ui.html](https://skillsync-5wgx.onrender.com/swagger-ui.html)
 
 ---
 
