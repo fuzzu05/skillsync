@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: skillsync-test
+
+  datasource:
+    url: jdbc:h2:mem:skillsynctest;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+
+  flyway:
+    enabled: false # Tests use JPA schema generation for fast isolated execution
+
+springdoc:
+  api-docs:
+    enabled: false
+
+app:
+  jwt:
+    secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+    expiration-ms: 3600000

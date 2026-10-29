@@ -1,0 +1,39 @@
+# College Reports & Specialization Experiments
+/reports/
+/SpecializationAIML/
+
+# Java & Maven Build Artifacts
+target/
+**/target/
+build/
+*.class
+
+# Maven Wrapper JAR
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE & Editor Configurations
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache
+
+# Environment & Secrets
+*.env
+*.env.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+*.tmp
+
