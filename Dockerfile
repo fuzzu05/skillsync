@@ -15,6 +15,6 @@ FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 COPY --from=build /app/target/skillsync-0.0.1-SNAPSHOT.war app.war
 
-EXPOSE 8081
-ENTRYPOINT ["java", "-Xmx350m", "-jar", "app.war"]
+EXPOSE 8080
+ENTRYPOINT ["sh", "-c", "java -Xmx350m -Dserver.port=${PORT:-8080} -jar app.war"]
 
