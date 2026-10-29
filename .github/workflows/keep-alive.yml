@@ -22,3 +22,4 @@ jobs:
             echo "Warning: Received HTTP $RESPONSE_CODE, pinging swagger-ui fallback..."
             curl -s -o /dev/null -w "%{http_code}" https://skillsync-5wgx.onrender.com/swagger-ui.html
           fi
+
