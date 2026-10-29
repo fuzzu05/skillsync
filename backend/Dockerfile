@@ -17,3 +17,4 @@ COPY --from=build /app/target/skillsync-0.0.1-SNAPSHOT.war app.war
 
 EXPOSE 8081
 ENTRYPOINT ["java", "-Xmx350m", "-jar", "app.war"]
+
